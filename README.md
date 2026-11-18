@@ -13,3 +13,6 @@ The single-cycle processor has three major weaknesses:
 3. It requires three adders: one in the ALU, and two for the PC logic. These are quite expensive, especially if they must be fast.
 
 The multi-cycle processor addresses such weaknesses by breaking instructions into multiple  shorter steps. The memory, ALU, and register file have the longest delays, so to keep the delay for each short step equal, this processor uses just one of these units per step.
+
+The architecture of the multi-cycle processor can be seen here:
+![Multi-Cycle Processor Architecture](https://github.com/mark-ford123/RISC-V-Processor/blob/main/images/multicycle%20processor.png)
